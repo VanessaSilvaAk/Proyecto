@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Teko:500&display=swap');
+
+
+body{
+    border: 20px;
+    padding: 20px;
+    margin: 20px;
+    background-color: black;
+}
+div.card-third{
+    float: left;
+    width: 25%;
+    max-width: 100%;
+}
+div.card-third div.card-third-image {
+    position: relative;
+    width: 300px;
+}
+
+div.card-third div.card-third-image img{
+    width: 100%;
+    height: auto;
+}
+div.card-third div.card-third-content div.card-third-date time.datetime{
+    font-size: smaller;
+}
+div.card-third div.card-third-image div.card-third-vote{
+    position: absolute;
+    border-radius: 50%;
+    padding: 10px;
+    bottom: -20px;
+    right: 20px;
+    background-color: #5193d1;
+}
+div .card-third-date {
+    background-color: white;
+}
+div.card-third div.card-third-content{
+    width: 300px;
+}
+div.card-third-content div.card-third-date h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;
+    text-align: center;
+}
+div.card-third-content div.card-third-date p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: red;
+    text-align: right;
+}
+div.card-third-content div.card-third-date time.datatime{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 50px;
+}
+div.card-third-content div.card-third-date h3{
+    font-family: 'Courier New', Courier, monospace;
+}
+.sprite{
+    background-image: url("https://cdn2.cocinadelirante.com/sites/all/themes/delirante/images/sprite.png");
+    background-repeat: no-repeat;
+    zoom: 1;
+    display: inline-block;
+}
+.btn-fb-color{
+    width: 36px;
+    height: 36px;
+    background-position: -7px -649px;
+}
+.btn-tw-color{
+	width: 34px;
+    height: 34px;
+    background-position: -47px -649px;
+}
+.btn-inst-color{
+	width: 34px;
+    height: 34px;
+    background-position: -128px -649px;
+}
+footer{
+    color: white;
+    margin-top: 30px;
+    padding: 20px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header {
+    border-radius: 50px;
+    padding: -5px;
+    margin: 10px;
+    border: 5px;
+    background-color: yellowgreen;
+    color: white;
+    display: flex;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+}

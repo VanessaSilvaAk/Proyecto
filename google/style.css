@@ -1,0 +1,118 @@
+nav div ul li{
+  list-style: none;
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  position: relative;
+}
+nav div ul li.img img{
+  background-position: -132px -38px;
+  vertical-align: middle;
+  width: 29px;
+  height: auto ;
+  display: inline-block;
+}
+div.footer ul li{
+  display: inline-block;
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+ul li{
+  display: inline-block;
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+li.button button{
+  color: #ffffff;
+  background-color: #4285f4;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: left;
+  padding: 6px 12px;
+}
+li.button button{
+  border-color: 1px solid #4285f4;
+  border-top-color: rgb(66, 133, 244);
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-right-color: rgb(66, 133, 244);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-color: rgb(66, 133, 244);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: rgb(66, 133, 244);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    border-radius: 2px;
+}
+section div.google img{
+  padding-top: 109px;
+  height: 92px;
+  width: 272px;
+  text-align: center;
+}
+input{
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  margin: 0;
+  padding: 0;
+  color: rgba(0,0,0,.87);
+  word-wrap: break-word;
+  outline: none;
+  display: flex;
+  flex: 100%;
+  -webkit-tap-highlight-color: transparent;
+  margin-top: -37px;
+  height: 34px;
+  font-size: 16px;
+  /*text-align: center;*/
+}
+div.center{
+  text-align: center;
+}
+div.right{
+  text-align: right;
+  padding: 0 12px;
+}
+div.button1 button{
+  background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+  color: #5F6368;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+footer div.footer div.ul1 ul li{
+  align-items: flex-end;
+  left: 20px;
+}
+footer div.footer div.ul2 ul li{
+  align-items: flex-end;
+}
+footer div.footer div.ul1 ul li{
+  color: #5F6368;
+  padding-left: 27px;
+  margin: 0 !important; 
+  margin-top: 0px !important;
+  margin-right: 0px !important;
+  margin-bottom: 0px !important;
+  margin-left: 0px !important;
+}

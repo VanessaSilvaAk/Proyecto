@@ -1,0 +1,11 @@
+body{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blueviolet;
+}
+div ul li{
+    text-align: left;
+}
+div ol li{
+    text-align: left;
+}
